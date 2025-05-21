@@ -1,10 +1,11 @@
 {
-    "name": "matthewbdaly/sms-client",
+    "name": "skuipers/sms-client",
     "description": "A generic SMS client library. Supports multiple swappable drivers.",
     "type": "library",
     "keywords": ["sms"],
     "require": {
-        "guzzlehttp/guzzle": "^6.2"
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.0"
     },
     "require-dev": {
         "psy/psysh": "^0.8.0",
@@ -19,7 +20,12 @@
     "authors": [
         {
             "name": "Matthew Daly",
-            "email": "matthewbdaly@gmail.com"
+            "email": "matthewbdaly@gmail.com",
+            "role": "Original Developer"
+        },
+        {
+          "name": "Sandra Kuipers",
+          "role": "Fork Developer"
         }
     ],
     "autoload": {
